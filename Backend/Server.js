@@ -23,4 +23,7 @@ mongoose
   })
   .catch((error) => console.log(error));
 
+  //main route
+
 app.use("/api/tasks", taskRoutes);
+console.log("done");
